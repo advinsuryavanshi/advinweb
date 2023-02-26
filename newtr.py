@@ -16,7 +16,7 @@ def load_lottliurl(url):
 lottli_code = load_lottliurl("https://assets3.lottiefiles.com/packages/lf20_tfb3estd.json")
 
 img_project1 = Image.open(os.path.join("project1.jpg"))
-img_project2 = Image.open(os.path.join("project2.png"))
+img_project2 = Image.open(os.path.join("project2.jpg"))
 
 
 def local_css(file_name):
