@@ -16,7 +16,6 @@ def load_lottliurl(url):
 lottli_code = load_lottliurl("https://assets3.lottiefiles.com/packages/lf20_tfb3estd.json")
 
 img_project1 = Image.open(os.path.join("project1.jpg"))
-img_project2 = Image.open(os.path.join("project2.jpg"))
 
 
 def local_css(file_name):
@@ -73,22 +72,7 @@ with st.container():
           Python, Streamlit, NLTK ,Sklearn, Matplotlib.pyplot, Seaborn, word cloud, collections, pickle,numpy pandas.
         """)
         st.write("[see the project](https://github.com/advinsuryavanshi/Spam_mail)")
-
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_project2)
-    with text_column:
-        st.header("Diabetes Prediction")
-        st.write("""
-          Diabetes is a medical disorder that impacts how well our body uses food as fuel.Diabetes can cause blood sugar levels to rise if it is not continuously and carefully managed, 
-          which raises the chance of severe side effects like heart attack and stroke. We, therefore, choose to forecast using Python machine learning.
-        """)
-        st.subheader("Tools")
-        st.write("""
-          Python, Streamlit, Sklearn, Matplotlib.pyplot, Seaborn, pickle, numpy, pandas.
-        """)
-        st.write("[see the project](https://github.com/advinsuryavanshi/Diabetes)")    
+   
 
 with st.container():
     st.write("---")
