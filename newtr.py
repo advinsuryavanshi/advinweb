@@ -29,7 +29,7 @@ local_css(os.path.join("style.css"))
 with st.container():
     st.subheader("Hi,I am Advin Suryavanshi :wave:")
     st.title("A Machine learning enthusiast")
-    st.write("I love to get my hand dirty with Data Science and Footbaal :soccer:")
+    st.write("I love to get my hand dirty with Data Science and Football :soccer:")
 
 with st.container():
     st.write("---")
